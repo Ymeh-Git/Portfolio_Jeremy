@@ -101,7 +101,7 @@ Portfolio_Jeremy
     <li>id</li>
     <li>[images]</li>
     <li>title</li>
-    <li>content</li>
+    <li>description</li>
 </ul>
 
 ### Projects
@@ -109,7 +109,7 @@ Portfolio_Jeremy
     <li>id</li>
     <li>[images]</li>
     <li>title</li>
-    <li>content</li>
+    <li>description</li>
     <li>language</li>
 </ul>
 
