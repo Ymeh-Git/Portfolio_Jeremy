@@ -81,13 +81,14 @@ Portfolio_Jeremy
     |    |__hobbiesDB.php
     |    |__projectsDB.php
     |__Router
-    |    |__router.php
+    |    |__route.php
     |__Template
     |    |__Error
     |    |    |__error404.php
     |    |__about.php
     |    |__contact.php
     |    |__hobbies.php
+    |    |__home.php
     |    |__projects.php
     |__index.php
     |__README.md
