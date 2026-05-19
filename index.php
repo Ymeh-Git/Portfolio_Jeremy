@@ -1,4 +1,16 @@
 <?php
+// In a previous project to restrain access by URL, I did something like this :
+define('ACCESS_GRANTED', true);
+// Then on every Template I paste this :
+
+// if (!defined('ACCESS_GRANTED')) {
+//     http_response_code(403);
+//     exit();
+// }
+
+// Which means that if someone try to access directly to a Template, he will get an error 403 (Forbidden) since the constant "ACCESS_GRANTED" is not defined.
+// So there is only one way to access is though the index.php?route=[...], even if you try to access a route that doesn't exist you will get error 404(Page not found).
+
 require("Router/route.php");
 ?>
 
