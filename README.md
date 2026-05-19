@@ -74,21 +74,21 @@ Portfolio_Jeremy
     |__Assets
     |    |__Css
     |    |    |__mobile.css
-    |    |    |__style.css
+    |    |    |__styles.css
     |    |__Js
-    |         |__script.js
+    |         |__scripts.js
     |__Database
-    |    |__projectsDB.php
     |    |__hobbiesDB.php
+    |    |__projectsDB.php
     |__Router
     |    |__router.php
     |__Template
     |    |__Error
-    |    |    |__404.php
+    |    |    |__error404.php
     |    |__about.php
+    |    |__contact.php
     |    |__hobbies.php
     |    |__projects.php
-    |    |__contact.php
     |__index.php
     |__README.md
 </pre>
