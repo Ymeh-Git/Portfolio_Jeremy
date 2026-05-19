@@ -92,3 +92,35 @@ Portfolio_Jeremy
     |__index.php
     |__README.md
 </pre>
+
+## Class
+
+### Hobbies
+<ul>
+    <li>id</li>
+    <li>[images]</li>
+    <li>title</li>
+    <li>content</li>
+</ul>
+
+### Projects
+<ul>
+    <li>id</li>
+    <li>[images]</li>
+    <li>title</li>
+    <li>content</li>
+    <li>language</li>
+</ul>
+
+### Jeremy (me)
+<ul>
+    <li>id</li>
+    <li>firstName</li>
+    <li>lastName</li>
+    <li>title</li>
+    <li>image</li>
+    <li>email</li>
+    <li>about</li>
+    <li>linkedIn</li>
+    <li>github</li>
+</ul>
