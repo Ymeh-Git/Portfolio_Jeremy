@@ -64,35 +64,6 @@ Make your dreams come true ! Nothing is impossible [...](https://www.youtube.com
     <li>JS</li>
 </ul>
 
-## Tree structure
-
-Since I have my 5 pages in mind and on Figma, I can create my folders and files in a Tree Structure first.
-
-<pre style="color:#E6DDDD; background-color:#2F213B">
-Portfolio_Jeremy
-    |
-    |__Assets
-    |    |__Css
-    |    |    |__mobile.css
-    |    |    |__styles.css
-    |    |__Js
-    |         |__scripts.js
-    |__Database
-    |    |__hobbiesDB.php
-    |    |__projectsDB.php
-    |__Router
-    |    |__route.php
-    |__Template
-    |    |__Error
-    |    |    |__error404.php
-    |    |__about.php
-    |    |__contact.php
-    |    |__hobbies.php
-    |    |__home.php
-    |    |__projects.php
-    |__index.php
-    |__README.md
-</pre>
 
 ## Class
 
@@ -125,3 +96,43 @@ Portfolio_Jeremy
     <li>linkedIn</li>
     <li>github</li>
 </ul>
+
+## Tree structure
+
+Since I have my 5 pages in mind and on Figma, I can create my folders and files in a Tree Structure first.
+
+<pre style="color:#E6DDDD; background-color:#2F213B">
+Portfolio_Jeremy
+    |
+    |__Assets
+    |    |__Css
+    |    |    |__mobile.css
+    |    |    |__styles.css
+    |    |__Js
+    |    |    |__[...].js
+    |    |__Icons
+    |         |__[...]
+    |__Includes
+    |    |__Class
+    |    |    |__hobby.php
+    |    |    |__jeremy.php
+    |    |    |__project.php
+    |    |__Database
+    |         |__hobby.php
+    |         |__hobbiesDB.php
+    |         |__projectsDB.php
+    |__Router
+    |    |__route.php
+    |__Template
+    |    |__Error
+    |    |    |__error404.php
+    |    |__about.php
+    |    |__contact.php
+    |    |__hobbies.php
+    |    |__home.php
+    |    |__projects.php
+    |__index.php
+    |__README.md
+</pre>
+
+It may change.
