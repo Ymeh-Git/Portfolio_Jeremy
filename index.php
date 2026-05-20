@@ -20,17 +20,58 @@ require("Router/route.php");
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./Assets/Css/styles.css">
+    <link rel="stylesheet" href="./Assets/Css/mobile.css">
     <title>Portfolio - <?= $title ?></title>
 </head>
 <body>
     <header>
         <!-- TODO : add my navigation menu here -->
-        <nav>
-            <a href="./index.php?route=home" class="nav-link <?= $page == "home" ? "active" : "" ?>">Home</a>
-            <a href="./index.php?route=about" class="nav-link <?= $page == "about" ? "active" : "" ?>">About me</a>
-            <a href="./index.php?route=hobbies" class="nav-link <?= $page == "hobbies" ? "active" : "" ?>">Hobbies</a>
-            <a href="./index.php?route=projects" class="nav-link <?= $page == "projects" ? "active" : "" ?>">Projects</a>
-            <a href="./index.php?route=contact" class="nav-link <?= $page == "contact" ? "active" : "" ?>">Contact me</a>
+        <nav class="tabbar">
+            <a href="./index.php?route=home" class="tabbar-link <?= $page == "home" ? "active" : "" ?>">
+                <div class="tabbar-link-button">
+                    <img 
+                        src="<?= $page == "home" ? "./Assets/Icons/homeActive.png" : "./Assets/Icons/home.png" ?>"
+                        alt="Home"
+                        class="tabbar-link-img">
+                    <p>Home</p>
+                </div>
+            </a>
+            <a href="./index.php?route=about" class="tabbar-link <?= $page == "about" ? "active" : "" ?>">
+                <div class="tabbar-link-button">
+                    <img 
+                        src="<?= $page == "about" ? "./Assets/Icons/aboutActive.png" : "./Assets/Icons/about.png" ?>"
+                        alt="About me"
+                        class="tabbar-link-img">
+                    <p>About me</p>
+                </div>
+            </a>
+            <a href="./index.php?route=hobbies" class="tabbar-link <?= $page == "hobbies" ? "active" : "" ?>">
+                <div class="tabbar-link-button">
+                    <img 
+                        src="<?= $page == "hobbies" ? "./Assets/Icons/hobbiesActive.png" : "./Assets/Icons/hobbies.png" ?>"
+                        alt="Hobbies"
+                        class="tabbar-link-img">
+                    <p>Hobbies</p>
+                </div>
+            </a>
+            <a href="./index.php?route=projects" class="tabbar-link <?= $page == "projects" ? "active" : "" ?>">
+                <div class="tabbar-link-button">
+                    <img 
+                        src="<?= $page == "projects" ? "./Assets/Icons/projectsActive.png" : "./Assets/Icons/projects.png" ?>"
+                        alt="Projects"
+                        class="tabbar-link-img">
+                    <p>Projects</p>
+                </div>
+            </a>
+            <a href="./index.php?route=contact" class="tabbar-link <?= $page == "contact" ? "active" : "" ?>">
+                <div class="tabbar-link-button">
+                    <img 
+                        src="<?= $page == "contact" ? "./Assets/Icons/contactActive.png" : "./Assets/Icons/contact.png" ?>"
+                        alt="Contact me"
+                        class="tabbar-link-img">
+                    <p>Contact me</p>
+                </div>
+            </a>
         </nav>
     </header>
     <main>

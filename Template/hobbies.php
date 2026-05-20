@@ -4,4 +4,4 @@ if (!defined('ACCESS_GRANTED')) {
     exit();
 }
 ?>
-<?= "Passions" ?>
+<h1>Hobbies</h1>

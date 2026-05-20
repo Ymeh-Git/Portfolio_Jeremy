@@ -4,4 +4,4 @@ if (!defined('ACCESS_GRANTED')) {
     exit();
 }
 ?>
-<?= "Home" ?>
+<h1>Home</h1>

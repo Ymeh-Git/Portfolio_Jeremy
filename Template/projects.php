@@ -4,4 +4,4 @@ if (!defined('ACCESS_GRANTED')) {
     exit();
 }
 ?>
-<?= "Projets" ?>
+<h1>Projects</h1>

@@ -5,4 +5,5 @@ if (!defined('ACCESS_GRANTED')) {
 }
 ?>
 
-<?= "Page not found" ?>
+<h1>Page Not Found</h1>
+<a href="../index.php">Go back to homepage</a>

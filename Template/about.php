@@ -4,4 +4,4 @@ if (!defined('ACCESS_GRANTED')) {
     exit();
 }
 ?>
-<?= "À propos" ?>
+<h1>About</h1>

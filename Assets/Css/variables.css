@@ -1,0 +1,13 @@
+/* HERE ARE MY FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Stardos+Stencil:wght@400;700&display=swap');
+
+/* HERE ARE THE VARIABLES */
+:root{
+    --carbon-black : #242424;
+    --pitch-black : #0C0405;
+    --midnight-violet : #2F213B;
+    --rosty-copper : #FF9861;
+    --alabaster-grey : #E6DDDD;
+    --alabaster-grey-30 : rgba(230, 221, 221, 0.3);
+}

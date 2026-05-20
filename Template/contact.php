@@ -4,4 +4,4 @@ if (!defined('ACCESS_GRANTED')) {
     exit();
 }
 ?>
-<?= "Contact" ?>
+<h1>Contact</h1>
