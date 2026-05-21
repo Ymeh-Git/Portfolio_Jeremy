@@ -31,7 +31,7 @@ require("Router/route.php");
                 <div class="tabbar-link-button">
                     <img 
                         src="<?= $page == "home" ? "./Assets/Icons/homeActive.png" : "./Assets/Icons/home.png" ?>"
-                        alt="Home icon - Flaticon - Thanks to Freepik for this icon"
+                        alt="Home icon - Earth - Flaticon - Thanks to Freepik for this icon"
                         class="tabbar-link-img">
                     <p>Home</p>
                 </div>
@@ -40,7 +40,7 @@ require("Router/route.php");
                 <div class="tabbar-link-button">
                     <img 
                         src="<?= $page == "about" ? "./Assets/Icons/aboutActive.png" : "./Assets/Icons/about.png" ?>"
-                        alt="About me icon - Flaticon - Thanks to Freepik for this icon"
+                        alt="About me icon - Astronaut helmet - Flaticon - Thanks to Freepik for this icon"
                         class="tabbar-link-img">
                     <p>About me</p>
                 </div>
@@ -49,7 +49,7 @@ require("Router/route.php");
                 <div class="tabbar-link-button">
                     <img 
                         src="<?= $page == "hobbies" ? "./Assets/Icons/hobbiesActive.png" : "./Assets/Icons/hobbies.png" ?>"
-                        alt="Hobbies icon - Flaticon - Thanks to Freepik for this icon"
+                        alt="Hobbies icon - Milky way - Flaticon - Thanks to Freepik for this icon"
                         class="tabbar-link-img">
                     <p>Hobbies</p>
                 </div>
@@ -58,7 +58,7 @@ require("Router/route.php");
                 <div class="tabbar-link-button">
                     <img 
                         src="<?= $page == "projects" ? "./Assets/Icons/projectsActive.png" : "./Assets/Icons/projects.png" ?>"
-                        alt="Projects icon - Flaticon - Thanks to Freepik for this icon"
+                        alt="Projects icon - Rocket - Flaticon - Thanks to Freepik for this icon"
                         class="tabbar-link-img">
                     <p>Projects</p>
                 </div>
@@ -67,7 +67,7 @@ require("Router/route.php");
                 <div class="tabbar-link-button">
                     <img 
                         src="<?= $page == "contact" ? "./Assets/Icons/contactActive.png" : "./Assets/Icons/contact.png" ?>"
-                        alt="Contact me icon - Flaticon - Thanks to Freepik for this icon"
+                        alt="Contact me icon - Satellite - Flaticon - Thanks to Freepik for this icon"
                         class="tabbar-link-img">
                     <p>Contact me</p>
                 </div>
@@ -78,7 +78,7 @@ require("Router/route.php");
         <?php if($page == "home"):?>
             <video 
             src="./Assets/Video/AiVreaSaStii_Pixabay_HD.mp4" 
-            alt="Black hole video background - Pixabay - Thanks to AiVreaSaStii for this video" 
+            alt="Video background - Pixabay - Thanks to AiVreaSaStii for this video" 
             class="home-video-background" autoplay muted loop></video>
             <div class="home-background"></div>
         <?php endif; ?>
