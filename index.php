@@ -81,6 +81,8 @@ require("Router/route.php");
             alt="Video background - Pixabay - Thanks to AiVreaSaStii for this video" 
             class="home-video-background" autoplay muted loop></video>
             <div class="home-background"></div>
+        <?php else: ?>
+            <div class="other-page-background"></div>
         <?php endif; ?>
         <!-- Main content will be here -->
         <?php require "Template/" . $page . ".php"; ?>
