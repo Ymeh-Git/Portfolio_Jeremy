@@ -253,7 +253,7 @@ footer{
 
 /* ABOUT PAGE */
 
-.about-section{
+.about-section, .contact-section, .projects-section, .hobbies-section{
     width: 600px;
     height: 100%;
     padding: 32px 0 172px 0;

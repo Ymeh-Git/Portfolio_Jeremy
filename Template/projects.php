@@ -4,4 +4,7 @@ if (!defined('ACCESS_GRANTED')) {
     exit();
 }
 ?>
-<h1>Projects</h1>
+
+<section class="projects-section">
+    <h1>Projects</h1>
+</section>

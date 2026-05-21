@@ -4,4 +4,6 @@ if (!defined('ACCESS_GRANTED')) {
     exit();
 }
 ?>
-<h1>Hobbies</h1>
+<section class="hobbies-section">
+    <h1>Hobbies</h1>
+</section>

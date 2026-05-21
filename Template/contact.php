@@ -4,4 +4,6 @@ if (!defined('ACCESS_GRANTED')) {
     exit();
 }
 ?>
-<h1>Contact</h1>
+<section class="contact-section">
+    <h1>Contact</h1>
+</section>
