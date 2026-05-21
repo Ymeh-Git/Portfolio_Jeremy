@@ -12,7 +12,8 @@
 body{
     height: 100vh; /* Temporary*/
     padding: 0 80px;
-    background:linear-gradient(var(--carbon-black), var(--midnight-violet))
+    background:linear-gradient(var(--carbon-black), var(--midnight-violet));
+    overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -57,24 +58,24 @@ footer{
     width: 800px;
     height: 100px;
     padding: 8px;
-
+    
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-
+    
     background-color: var(--alabaster-grey-30);
     color: var(--pitch-black);
     /* Glass effect */
     box-shadow: inset 4px 4px 10px var(--carbon-black);
     backdrop-filter: blur(2px);
-
+    
     /* Right above the (box-)shadow */
     border-width: 1px 0 0 1px;
     border-style: solid;
     border-color: var(--alabaster-grey-30);
     border-radius: 360px;
-
+    
     position: fixed;
     bottom: 15%;
     right: 50%;
@@ -87,16 +88,16 @@ footer{
     width: 160px; /* x5 out of 800px */
     height: 80px;
     padding: 8px auto;
-
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 4px;
-
+    
     /* border: 3px solid red; */
     border-radius: 360px;
-
+    
     text-decoration: none;
     color: var(--pitch-black);
 }
@@ -121,6 +122,14 @@ footer{
 
 .tabbar-link.active{
     background-color: var(--midnight-violet);
+    /* I don't know if I should keep this effect or not. 
+    Problem for later */
+    /* ---------------------------------------- */
+    border-width: 1px 0 0 1px;
+    border-style: solid;
+    border-color: var(--alabaster-grey);
+    box-shadow: 2px 2px 8px var(--carbon-black);
+    /* ---------------------------------------- */
 }
 
 .tabbar-link.active .tabbar-link-button p{
@@ -128,3 +137,40 @@ footer{
 }
 
 /* ############### */
+
+/* HOME PAGE */
+
+/* Home video background */
+.home-video-background{
+    width: 100%;
+    height: 100%;
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+    object-fit: cover;
+    z-index: -2; /* Ensure the video is behind other content */
+}
+/* Background that covers the video. In case video doesn't work it'll be visible */
+.home-background{
+    width: 100%;
+    height: 100%;
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+    background:linear-gradient(var(--carbon-black), var(--midnight-violet));
+    opacity: 0.9;
+    z-index: -1; /* Ensure the background is behind other content but above the video */
+}
+
+.home-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ######### */
