@@ -84,19 +84,6 @@ Make your dreams come true ! Nothing is impossible [...](https://www.youtube.com
     <li>language</li>
 </ul>
 
-### Jeremy (me)
-<ul>
-    <li>id</li>
-    <li>firstName</li>
-    <li>lastName</li>
-    <li>title</li>
-    <li>image</li>
-    <li>email</li>
-    <li>about</li>
-    <li>linkedIn</li>
-    <li>github</li>
-</ul>
-
 ## Tree structure
 
 Since I have my 5 pages in mind and on Figma, I can create my folders and files in a Tree Structure first.
@@ -115,7 +102,6 @@ Portfolio_Jeremy
     |__Includes
     |    |__Class
     |    |    |__hobby.php
-    |    |    |__jeremy.php
     |    |    |__project.php
     |    |__Database
     |         |__hobby.php

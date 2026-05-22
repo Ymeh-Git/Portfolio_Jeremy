@@ -12,6 +12,8 @@ define('ACCESS_GRANTED', true);
 // So there is only one way to access is though the index.php?route=[...], even if you try to access a route that doesn't exist you will get error 404(Page not found).
 
 require("Router/route.php");
+require_once('./Includes/Class/hobby.php');
+require_once('./Includes/Class/project.php');
 ?>
 
 <!DOCTYPE html>
@@ -21,6 +23,7 @@ require("Router/route.php");
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./Assets/Css/styles.css">
     <link rel="stylesheet" href="./Assets/Css/mobile.css">
+    <script src="./Assets/Js/scripts.js" defer></script>
     <title>Portfolio - <?= $title ?></title>
 </head>
 <body>
@@ -67,9 +70,9 @@ require("Router/route.php");
                 <div class="tabbar-link-button">
                     <img 
                         src="<?= $page == "contact" ? "./Assets/Icons/contactActive.png" : "./Assets/Icons/contact.png" ?>"
-                        alt="Contact me icon - Satellite - Flaticon - Thanks to Freepik for this icon"
+                        alt="Contact icon - Satellite - Flaticon - Thanks to Freepik for this icon"
                         class="tabbar-link-img">
-                    <p>Contact me</p>
+                    <p>Contact</p>
                 </div>
             </a>
         </nav>
