@@ -4,6 +4,7 @@ if (!defined('ACCESS_GRANTED')) {
     exit();
 }
 ?>
-
-<h1>Page Not Found</h1>
-<a href="../index.php">Go back to homepage</a>
+<section class="error-section">
+    <h1>Error 404 - Page Not Found</h1>
+    <a href="../index.php?route=home" class="btn">Go back to homepage</a>
+</section>
