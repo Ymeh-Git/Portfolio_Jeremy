@@ -58,8 +58,8 @@ $coding = new Hobby(
             "alt" => "Two screens, one with code on it, the other with documentation. - unsplash.com - Safar Safarov"
         ],
         [
-            "path" => "../Assets/Images/kate-stone-matheson-uy5t-CJuIK4-unsplash.jpg", 
-            "alt" => "A cat sleeping in a bed. - unsplash.com - Kate Stone Matheson"
+            "path" => "../Assets/Images/jamesmarkosborne-code-1076536.jpg", 
+            "alt" => "Lines of HTML code on a screen. - unsplash.com - James Mark Osborne"
         ]
     ]
 );
