@@ -8,9 +8,9 @@ if (!defined('ACCESS_GRANTED')) {
     <h1>About me</h1>
     <img 
         src="./Assets/Images/profilePicture.jpeg" 
-        alt="Profile picture of Jérémy - Thanks to my friend Theodora for creating this picture" 
+        alt="Profile picture of Jeremy - Thanks to my friend Theodora for creating this picture" 
         class="about-profile-picture">
-    <h2>Jérémy</h2>
+    <h2>Jeremy</h2>
     <img src="https://readme-typing-svg.demolab.com/?font=Stardos+Stencil&size=24&pause=1000&color=E6DDDD&center=true&vCenter=true&width=450&lines=Passionate+Developer+💻;Web+%26+Mobile+Lover+📱;On+my+way+to+AI+🤖" style="height:48px">
     <p>I am a cheerful person, driven by a desire to learn, share, and take on daily challenges ! I am passionate about technology, code, playing video games (The Last Of Us Part 1 & 2, Darksiders series, Grounded...), reading mangas (Blood Lad, Elfen Lied, Berserk, Solo Leveling, Dreamland, ...). I am also a big fan of science fiction movies. </p>
     <p>I have been learning programming since July 2025, and I have decided to create this portfolio to showcase my skills and projects and obviously have fun while doing it.</p>
