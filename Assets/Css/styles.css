@@ -253,7 +253,7 @@ footer{
 
 /* ABOUT PAGE */
 
-.about-section, .contact-section, .projects-section, .hobbies-section, .error-section{
+.about-section, .contact-section, .projects-section,.hobbies-section, .error-section{
     width: 600px;
     height: 100%;
     padding: 32px 0 172px 0;
@@ -337,4 +337,81 @@ footer{
     border-radius: 16px;
 }
 
+/* ############ */
+
+/* HOBBIES PAGE */
+
+.hobbies-wrapper, .projects-wrapper {
+    position: relative;
+    max-width: 600px;
+    /* margin: 0 auto; */
+    
+    display: flex;
+    align-items: center;
+}
+
+.carousel-container {
+    width: 100%;
+    
+    display: flex;
+
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+
+.item {
+    flex: 0 0 100%;
+    padding: 20px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.nav-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+    padding: 5px 20px;
+
+    background: var(--midnight-violet);
+    color: var(--alabaster-grey);
+    border: 1px solid var(--alabaster-grey);
+    font-size: 2rem;
+    border-radius: 360px;
+    
+    cursor: pointer;
+    z-index: 10;
+}
+
+.prev-btn { left: -100px; }
+
+.next-btn { right: -100px; }
+
+
+.images-carousel {
+    width: 100%;
+    max-width: 600px;
+    height: 250px;
+
+    overflow: hidden;
+    position: relative;
+    border-radius: 8px;
+}
+
+.images-track {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s ease-in-out;
+}
+
+.images-track img {
+    flex: 0 0 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
 /* ############ */
