@@ -13,7 +13,7 @@
 /* Focus styles, accessibility purposes */
 *:focus{
     outline: 2px dashed var(--rosty-copper);
-    transform: scale(1.20);
+    transform: scale(1.10);
 }
 
 body{
@@ -253,7 +253,7 @@ footer{
 
 /* ABOUT PAGE */
 
-.about-section, .contact-section, .projects-section, .hobbies-section{
+.about-section, .contact-section, .projects-section, .hobbies-section, .error-section{
     width: 600px;
     height: 100%;
     padding: 32px 0 172px 0;
@@ -297,3 +297,44 @@ footer{
     align-items: center;
 }
 /* ########## */
+
+/* CONTACT PAGE */
+
+.contact-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.contact-card{
+    width: 300px;
+    min-height: 200px;
+
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 16px;
+
+    border-radius: 16px;
+    background-color: var(--alabaster-grey-30);
+    text-decoration: none;
+    transition : 0.5s ease;
+}
+
+.contact-card:hover{
+    box-shadow: 0 0 8px var(--rosty-copper);
+}
+
+.contact-card img{
+    width: 100px;
+    height: 100px;
+    
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+/* ############ */
