@@ -57,7 +57,7 @@ main{
 
 footer{
     width : 100%;
-    padding: 8px;
+    padding: 16px 8px 8px 8px;
 
     display: flex;
     flex-direction: row;
@@ -161,7 +161,7 @@ footer{
     border-radius: 360px;
     
     position: fixed;
-    bottom: 12%;
+    bottom: 14%;
     right: 50%;
     transform: translate(50%, 50%);
     z-index: 1;
