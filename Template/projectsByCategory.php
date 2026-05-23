@@ -33,6 +33,10 @@ if ($category !== null):
             $language = 'PHP';
             $projects = $php;
             break;
+        case 'swift':
+            $language = 'Swift';
+            $projects = $swift;
+            break;
         default:
             http_response_code(404);
             header('Location: ./index?route=error404.php');
@@ -79,6 +83,7 @@ if ($category !== null):
     <section class="projects-section">
         <h1>No projects found in <?=$language?></h1>
         <p>Sorry, there are no projects available in this category at the moment. Please check back later.</p>
+        <a href="?route=projects" class="btn">Go back</a>
     </section>
 <?php endif; ?>
 <?php      

@@ -8,6 +8,12 @@ document.addEventListener("DOMContentLoaded", () => {
     // Get our buttons prev and next
     const prevBtn = document.querySelector('.prev-btn');
     const nextBtn = document.querySelector('.next-btn');
+    const totalItemsAvailable = document.querySelectorAll('.item').length;
+
+    if(totalItemsAvailable == 1){
+        prevBtn.classList.add("hidden")
+        nextBtn.classList.add("hidden")
+    }
     // Implement an index to keep track of the current hobby
     let currentIndex = 0;
 

@@ -69,6 +69,10 @@ footer{
     backdrop-filter: blur(2px);
 }
 
+.hidden{
+    display: none;
+}
+
 .btn{
     position: relative;
     min-width: 200px;
@@ -419,6 +423,15 @@ footer{
 
 /* PROJECTS PAGE */
 
+.projects-categories{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: stretch;
+    gap: 40px;
+}
+
 .btn .project-count{
     position: absolute;
     top: -8px;
@@ -436,4 +449,5 @@ footer{
 
     font-size: 12px;
 }
+
 /* ############# */

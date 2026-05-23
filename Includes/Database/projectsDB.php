@@ -6,7 +6,7 @@ if (!defined('ACCESS_GRANTED')) {
 // BTech Project
 $btech = new Project(
     "BTech - Eco'Rando",
-    "A project I did during an introduction to basics of HTML5 & CSS3, it took place at Lille - EuraTech, for 6 weeks, where I learned to do proper code. As final project, last 4 days I had to create a responsive website using only HTML and CSS, without JavaScript, or any framework or library. I chose to create a website about Eco-friendly hike, Eco'Rando.",
+    "Eco'Rando is project I did during an introduction to basics of HTML5 & CSS3, it took place at Lille - EuraTech, for 6 weeks, where I learned to do proper code. As final project, last 4 days I had to create a responsive website using only HTML and CSS, without JavaScript, or any framework or library. I chose to create a website about Eco-friendly hike.",
     [
         [
             "path" => "../Assets/Images/ecoRandoHome.png", 
@@ -114,14 +114,42 @@ $phpFromScratch = new Project(
     "https://github.com/Ymeh-Git/Learn-how-to-create-site-from-0-with-PHP-MySQL",
 );
 
-$projects = [$btech, $btn, $flipCard, $accessDB, $phpFromScratch];
+$evolea = new Project(
+    "Simplon AFP - Evolea",
+    "Evolea is the team project I was part of during the Swift / SwiftUI initiation, Apple Foundation Program (AFP) with Simplon a training center located in Wazemmes. Four weeks to prepare, learn swift/swiftUI, only 6 days to work on this project. We were originally four, Elise, Matteo, Yamina and me. We finished this project as a group of three.",
+    [
+        [
+            "path" => "../Assets/Images/evolea_app.png", 
+            "alt" => "Screenshot of conditions exercises."
+        ],
+        [
+            "path" => "../Assets/Images/evolea_news.png", 
+            "alt" => "Screenshot of conditions exercises."
+        ],
+        [
+            "path" => "../Assets/Images/evolea_map.png", 
+            "alt" => "Screenshot of environment setup."
+        ],
+        [
+            "path" => "../Assets/Images/evolea_settings.png", 
+            "alt" => "Screenshot of array and functions."
+        ],
+    ],
+    "swift",
+    "https://github.com/Ymeh-Git/Evolea",
+);
 
+$projects = [$btech, $btn, $flipCard, $accessDB, $phpFromScratch, $evolea];
+
+//Empty array for each language 
 $htmlcss =[];
 $python = [];
 $javascript = [];
 $react = [];
 $php = [];
+$swift = [];
 
+//Append each of them to the right Array
 foreach($projects as $project) {
     switch($project->getLanguage()) {
         case "htmlcss":
@@ -138,6 +166,9 @@ foreach($projects as $project) {
             break;
         case "php":
             $php[] = $project;
+            break;
+        case "swift":
+            $swift[] = $project;
             break;
     }
 }
