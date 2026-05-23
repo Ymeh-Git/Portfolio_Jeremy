@@ -70,6 +70,7 @@ footer{
 }
 
 .btn{
+    position: relative;
     min-width: 200px;
     padding: 8px 16px;
 
@@ -415,3 +416,24 @@ footer{
     object-fit: cover; 
 }
 /* ############ */
+
+/* PROJECTS PAGE */
+
+.btn .project-count{
+    position: absolute;
+    top: -8px;
+    right: -8px;
+
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: var(--rosty-copper);
+    color: var(--carbon-black);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 12px;
+}
+/* ############# */

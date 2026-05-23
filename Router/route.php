@@ -50,6 +50,12 @@ $availableRoutes =
         'title' => 'Projects', 
     ],
 
+    'projectsByCategory' =>  
+    [
+        'name' => 'projectsByCategory',
+        'title' => 'Projects by Category', 
+    ],
+
     // Contact page
     'contact'   => 
     [

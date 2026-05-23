@@ -14,6 +14,7 @@ define('ACCESS_GRANTED', true);
 require("Router/route.php");
 require_once('./Includes/Class/hobby.php');
 require_once('./Includes/Class/project.php');
+
 ?>
 
 <!DOCTYPE html>
@@ -57,10 +58,10 @@ require_once('./Includes/Class/project.php');
                     <p>Hobbies</p>
                 </div>
             </a>
-            <a href="./index.php?route=projects" class="tabbar-link <?= $page == "projects" ? "active" : "" ?>">
+            <a href="./index.php?route=projects" class="tabbar-link <?= $page == "projects" || $page == "projectsByCategory" ? "active" : "" ?>">
                 <div class="tabbar-link-button">
                     <img 
-                        src="<?= $page == "projects" ? "./Assets/Icons/projectsActive.png" : "./Assets/Icons/projects.png" ?>"
+                        src="<?= $page == "projects" || $page == "projectsByCategory" ? "./Assets/Icons/projectsActive.png" : "./Assets/Icons/projects.png" ?>"
                         alt="Projects icon - Rocket - Flaticon - Thanks to Freepik for this icon"
                         class="tabbar-link-img">
                     <p>Projects</p>
