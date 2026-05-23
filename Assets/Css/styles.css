@@ -8,6 +8,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 16px;
 }
 
 /* Focus styles, accessibility purposes */
@@ -27,21 +28,21 @@ body{
 
 h1, h2, h3, h4, h5, h6{
     font-family: 'Stardos Stencil';
-    font-size: 24px;
+    font-size: 1.5em;
     color: var(--alabaster-grey);
 }
 
 p, li{
     list-style: none;
     font-family: 'Smooch Sans';
-    font-size: 16px;
+    font-size: 1.2em;
     font-weight: 600;
     line-height: 1.5;
     color: var(--alabaster-grey);
 }
 
 li h4, h4{
-    font-size: 18px;
+    font-size: 1.2em;
 }
 
 main{
@@ -139,7 +140,7 @@ footer{
 
 .tabbar{
     width: 800px;
-    height: 100px;
+    height: 112px;
     padding: 8px;
     
     display: flex;
@@ -169,7 +170,7 @@ footer{
 /* Default */
 .tabbar-link{
     width: 160px; /* x5 out of 800px */
-    height: 80px;
+    height: 100px;
     padding: 8px auto;
     
     display: flex;
@@ -441,8 +442,7 @@ footer{
     top: -8px;
     right: -8px;
 
-    width: 24px;
-    height: 24px;
+    padding:4px 8px;
     border-radius: 50%;
     background-color: var(--rosty-copper);
     color: var(--carbon-black);
@@ -451,7 +451,7 @@ footer{
     justify-content: center;
     align-items: center;
 
-    font-size: 12px;
+    font-size: 1em;
 }
 
 /* ############# */
