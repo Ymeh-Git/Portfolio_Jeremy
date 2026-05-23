@@ -93,6 +93,7 @@ require_once('./Includes/Class/project.php');
     </main>
     <footer>
         <p>&copy; 2026 My Portfolio. All rights reserved.</p>
+        <!-- Add a modal to thank users from flaticon/pixabay/unsplash -->
     </footer>
 </body>
 </html>
