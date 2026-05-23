@@ -60,7 +60,7 @@ footer{
 
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
 
     position:fixed;
@@ -94,6 +94,10 @@ footer{
     background-position: 0% 50%;
 }
 
+.btn-category{
+    height: 100px;
+    border-radius: 16px;
+}
 /* If btn is hovered : play the animation */
 .btn:hover{
     /* 2s for each state */

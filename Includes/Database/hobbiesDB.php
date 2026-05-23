@@ -64,4 +64,23 @@ $coding = new Hobby(
     ]
 );
 
-$hobbies = [$cycling, $gaming, $coding];
+$baking = new Hobby(   
+    "Baking", 
+    "It's kind of the same as coding, creating things from scratch, testing, failing, learning, improving. And of course de best part : tasting", 
+    [
+        [   
+            "path" => "../Assets/Images/dmarr515-cookies-pixabay.jpg",
+            "alt" => "Cookies - pixabay.com- Dmarr515"
+        ],
+        [   
+            "path" => "../Assets/Images/yousafbhutta-tiramisu-pixabay.jpg",
+            "alt" => "A Tiramisu preparation - pixabay.com- Yousafbhutta"
+        ],
+        [   
+            "path" => "../Assets/Images/congerdesign-roll-of-dough-pixabay.jpg",
+            "alt" => "A roll of dough - pixabay.com- Congerdesign"
+        ],
+    ]
+);
+
+$hobbies = [$baking, $cycling, $gaming, $coding];
