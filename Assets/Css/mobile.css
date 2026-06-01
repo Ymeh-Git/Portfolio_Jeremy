@@ -1,21 +1,18 @@
 /* HERE ARE THE MOBILE STYLES */
 
 @media(max-width: 768px){
-    *{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        font-size: 12px;
-    }
-
     body{
         padding: 0 20px;
     }
-
+    
+    .tabbar-link-button p{
+        font-size: 1em;
+    }
+    
     .tabbar{
-        width: 90%;
+        width: 95%;
         height: 80px;
-        padding: 8px;
+        padding: 4px;
 
         bottom: 11%;
     }
@@ -23,7 +20,7 @@
     /* Default */
     .tabbar-link{
         width: 20%;
-        height: 60px;
+        height: 72px;
         padding: 8px auto;
         border-radius: 32px;
     }
