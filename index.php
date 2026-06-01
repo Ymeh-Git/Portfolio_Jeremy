@@ -25,7 +25,7 @@ require_once('./Includes/Class/project.php');
     <link rel="stylesheet" href="./Assets/Css/styles.css">
     <link rel="stylesheet" href="./Assets/Css/mobile.css">
     <?php if ($page == "hobbies" || $page == "projectsByCategory") :?>
-    <script src="./Assets/Js/scripts.js" defer></script>
+    <script src="./Assets/Js/carousel.js" defer></script>
     <?php endif;?>
     <title>Portfolio - <?= $title ?></title>
 </head>
