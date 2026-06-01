@@ -1,1 +1,52 @@
 /* HERE ARE THE MOBILE STYLES */
+
+@media(max-width: 768px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-size: 12px;
+    }
+
+    body{
+        padding: 0 20px;
+    }
+
+    .tabbar{
+        width: 90%;
+        height: 80px;
+        padding: 8px;
+
+        bottom: 11%;
+    }
+
+    /* Default */
+    .tabbar-link{
+        width: 20%;
+        height: 60px;
+        padding: 8px auto;
+        border-radius: 32px;
+    }
+
+    .tabbar-link-img{
+        width: 20px;
+        height: 20px;
+    }
+
+    .btn-field{
+        flex-direction: column;
+        gap: 16px;
+    }
+    .about-section, .contact-section, .projects-section,.hobbies-section, .error-section{
+        width: 90%;
+        padding: 32px 0 152px 0;
+        /* 172px = 100px(tabbar) + 40px(footer) + 32px(padding-top) */
+    }
+    .hobbies-wrapper, .projects-wrapper {
+        max-width: 300px;
+    }
+
+    .prev-btn { left: -30px; }
+
+    .next-btn { right: -30px; }
+}
