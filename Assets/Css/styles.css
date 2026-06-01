@@ -19,7 +19,7 @@
 
 body{
     width: 100%;
-    min-height: 100vh; /* Temporary*/
+    min-height: 100dvh;
     padding: 0 80px;
     overflow-x: hidden;
     /* I do this on purpose, this way it doesn't shift due to scrollbar since it's always visible */
@@ -130,7 +130,7 @@ footer{
 
 .other-page-background{
     width: 100%;
-    height: 130vh;
+    height: 130dvh;
     
     position: fixed;
     top: 0;
