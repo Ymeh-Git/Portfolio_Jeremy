@@ -24,7 +24,9 @@ require_once('./Includes/Class/project.php');
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./Assets/Css/styles.css">
     <link rel="stylesheet" href="./Assets/Css/mobile.css">
+    <?php if ($page == "hobbies" || $page == "projectsByCategory") :?>
     <script src="./Assets/Js/scripts.js" defer></script>
+    <?php endif;?>
     <title>Portfolio - <?= $title ?></title>
 </head>
 <body>
