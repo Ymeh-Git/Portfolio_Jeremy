@@ -17,14 +17,16 @@
     transform: scale(1.10);
 }
 
+
 body{
     width: 100%;
-    min-height: 100dvh;
+    min-height: 100vh;
     padding: 0 80px;
     overflow-x: hidden;
     /* I do this on purpose, this way it doesn't shift due to scrollbar since it's always visible */
     overflow-y: scroll;
     scroll-behavior: smooth;
+    background-color: var(--midnight-violet); /* This way no more white screen while scrolling down on mobile */
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -130,7 +132,7 @@ footer{
 
 .other-page-background{
     width: 100%;
-    height: 130dvh;
+    height: 130vh;
     
     position: fixed;
     top: 0;
