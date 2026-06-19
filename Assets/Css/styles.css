@@ -27,6 +27,11 @@ body{
     overflow-y: scroll;
     scroll-behavior: smooth;
     background-color: var(--midnight-violet); /* This way no more white screen while scrolling down on mobile */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -166,7 +171,7 @@ footer{
     border-radius: 360px;
     
     position: fixed;
-    bottom: 14%;
+    bottom: 8%;
     right: 50%;
     transform: translate(50%, 50%);
     z-index: 1;
