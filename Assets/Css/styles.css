@@ -171,7 +171,7 @@ footer{
     border-radius: 360px;
     
     position: fixed;
-    bottom: 8%;
+    bottom: 7%;
     right: 50%;
     transform: translate(50%, 50%);
     z-index: 1;
